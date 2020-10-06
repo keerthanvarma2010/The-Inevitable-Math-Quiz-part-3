@@ -1,0 +1,76 @@
+body {
+
+    font-family: cursive;
+    text-align: center;
+}
+
+.glow {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+    }
+}
+
+.ShadowText {
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+    font-size: 35px;
+}
+
+#PlayerWholeDivStyle {
+    border-radius: 10%;
+    width: 33%;
+    border: 1px solid;
+    box-shadow: 15px 15px yellow;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#ButtonLogIn {
+    font-size: 35px;
+}
+
+#ScoreFullOutput1 {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+#ScoreFullOutput2 {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+#EquationAnswerInputAndCheckButtonOutput {
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    /*position: absolute;
+    left: 475px;*/
+    border-radius: 10px;
+    border-top: 10px solid red;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid lime;
+    border-right: 10px solid deepskyblue;
+}
+
+#Username1Input, #Username2Input {
+    text-transform: lowercase;
+}

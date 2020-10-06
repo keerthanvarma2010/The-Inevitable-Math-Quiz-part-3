@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>The Inevitable Math Quiz</title>
+</head>
+
+<body style="background-color: black; ">
+    <center>
+    <div class="container">
+    <h2 id="ScoreFullOutput1" style="color: white; text-align: center;"><span id="scorePlayer1"></span></h2>
+    <h2 id="ScoreFullOutput2" style="color: white; text-align: center;"><span id="scorePlayer2"></span></h2>
+    <br>
+    <h2 class="glow">The Inevitable Math Quiz</h2>
+    <h1 style="color: deepskyblue;">Question Turn - <span id="QuestionTurnOutput"></span></h1>
+    <h1 style="color: deepskyblue;">Answer Turn - <span id="AnswerTurnOutput"></span></h1>
+    <br>
+    <div>
+            <div id="EquationAnswerInputAndCheckButtonOutput">
+            </div>
+        <br>
+        <span style="color: deepskyblue; font-size: 35px;">First Number - </span>
+        <input style="height: 40px;width: 300px;" type="number"
+            id="FirstNumberInput" placeholder="Enter First Number Here">
+        <br>
+        <br>
+        <span style="color: deepskyblue; font-size: 35px;">Second Number - </span>
+        <input style="height: 40px; width: 300px;" type="number"
+            id="SecondNumberInput" placeholder="Enter Second Number Here">
+    </div>
+    <br>
+    <button style="width: 20%; background-color: limegreen; height: 50px; font-size: 30px;" id="ButtonMakeQuestion" onclick="MakeQuestion()">Set</button>
+</div>
+</center>
+    <script src="main.js"></script>
+</body>
+
+</html>
